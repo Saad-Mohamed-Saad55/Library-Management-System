@@ -1,0 +1,27 @@
+.slider12 {
+    width: 100%;
+    height: auto;
+}
+
+.imgs {
+    width: auto;
+    height: 500px;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    .imgs {
+        height: 250px;
+    }
+}
+
+.slider12 {
+    width: 114%; /* I assume this is for a different purpose */
+    position: relative;
+}
+
+/* Update the styling for the images */
+.slider12 .carousel-item .imgs {
+    width: 100%;
+    object-fit: cover; /* Ensure the image covers the entire slider area */
+}

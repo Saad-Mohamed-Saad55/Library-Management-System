@@ -1,0 +1,17 @@
+body{
+    background-color: #F7EBD7;
+    width: 88%;
+
+}
+
+.navbar{
+    width: 113.5%;
+}
+
+.login{
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
